@@ -30,7 +30,7 @@ abstract class PullToRefreshBaseListFragment<T extends PullToRefreshBase<? exten
 	private T mPullToRefreshListView;
 
 	@Override
-	public final View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
+	public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 		View layout = super.onCreateView(inflater, container, savedInstanceState);
 
 		ListView lv = (ListView) layout.findViewById(android.R.id.list);
